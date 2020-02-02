@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<time.h>
+int main()
+{
+    srand(time(0));
+    int a=100,b=100,c=100;
+    while(a>=99)
+    {
+        a=rand();
+    }
+    printf("第1个获奖者");
+    printf("%d",a);
+    printf(" ");
+    while(b>=99)
+    {
+        b=rand();
+    }
+    printf("第2个获奖者");
+    printf("%d",b);
+    printf(" ");
+    while(c>=99)
+    {
+        c=rand();
+    }
+    printf("第3个获奖者");
+    printf("%d",c);
+
+}
